@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.topo-precos {
+    background-color: #2f86d6;
+    display: flex;
+    position: relative;
+}
+
+.topo-precos img {
+    width: 7vw;
+    margin: 3vh 0 4vh 25vw; 
+}
+
+.topo-precos h2 {
+    position: absolute;
+    top: 6vh;
+}
+
+.topo-precos p {
+    color: #fff;
+    position: absolute;
+    top: 10vh;
+}
+
+.container-topo-precos {
+    margin: 4vh 5vh 0 1vw;
+}
+
+.links-precos {
+    margin: 9vh 0 0 35svw;
+}
+
+.links-precos a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1vw;
+}
+
+.tabela-precos {
+    margin: 7vh auto;
+    text-align: center;
+}
+
+.tabela-precos th {
+    background-color: #f1f3f7;
+}
+
+.itens-tabela {
+    background-color: #f1f3f7;
+    text-align: left;
+}
+
+.tabela-precos tr {
+    line-height: 2vh;
+}
+
+.tabela-precos td, th {
+    padding: 1vw;
+}
+
+.titulo-tabela h3{
+    padding: 2vh;
+    font-size: 29px;
+}
+
+.titulo-tabela p {
+    font-weight: normal;
+    color: #a8a4a4;
+    font-size: 15px;
+}
+
+.bolinha-azul {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-color: #2f86d6;
+    border-radius: 100px;
+}
+
+table tbody td {
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+}
+
+.rodape-precos {
+    background-color:#2f86d6;
+    display: flex;
+    position: relative;
+    padding: 3vw;
+    text-align: center;
+}
+
+.rodape-precos img {
+    width: 7vw;
+    margin: 1vh 0 3vh 40vw;
+}
+
+.container-rodape {
+    position: relative;
+    width: 19vw;
+    margin: 1vh 1vw;
+}
+.container-rodape p{
+    position: absolute;
+    top: 5.5vh;
+    color: #fff;
+
+}
+
+.container-rodape h2{
+    position: absolute;
+    top: 2vh;
+}
+
+.direitos-autorais {
+    position: absolute;
+    bottom: 0;
+    left: 30vw;
+    color: #fff;
+    font-weight: bold;
+}
+
+.desenvolvido-por{
+    font-weight: bold;
+}
+
+.desenvolvido-por span{
+    color:#2f86d6
+}
+

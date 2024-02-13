@@ -1,0 +1,332 @@
+/* global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.limitar-secao {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.cabeçalho{
+    position: relative;
+    margin: 0 auto;
+    padding: 3vh 0;
+    background-color: #fff;
+}
+
+.cabeçalho h2{
+    color: #000000
+}
+
+.cabeçalho img {
+    width: 7vw;
+    position: relative;
+}
+
+.legenda-logo {
+    position: absolute;
+    left: 8vw;
+    top: 5vh;
+}
+
+.legenda-logo p {
+    color:#2f86d6;
+    font-weight: bold;
+}
+
+.container-link-topo {
+    position: absolute;
+    right: 0;
+    top: 7vh;
+}
+
+.container-link-topo a {
+    color: black;
+    text-decoration: none;
+    padding: 1vh;
+    font-weight: bold;
+    color: #233032; 
+}
+
+.secao-banner {
+    position: relative;
+    background-color: #2f86d6;
+    padding: 4vh 0;
+}
+
+.secao-banner img {
+    position: relative;
+    left: 53vw;
+    width: 45vw;
+    margin: 0 auto;
+}
+
+.secao-banner .legenda-banner {
+    color: #fff;
+    width: 28vw;
+    height: 30vh;
+    position: absolute;
+    left: 20vw;
+    top: 14vh;
+    margin: 3vh 2vw;
+}
+
+.legenda-banner p {
+    padding-bottom: 3vh;
+}
+.legenda-banner h2 {
+    padding-bottom: 3vh;
+    font-size:32px;
+}
+
+.anuncio-1 {
+    background-color: #233032;
+    position: relative;
+    text-align: center;
+    padding: 8vh 0;
+}
+
+.anuncio-1 h2{
+    position: absolute;
+    left: 6vw;
+    top: 4.5vh;
+    color: white;
+}
+
+.anuncio-1 p {
+    position: absolute;
+    left: 6vw;
+    top: 8.5vh;
+    color: white;
+}
+
+.anuncio-1 a {
+    position: absolute;
+    right: 10vw;
+    top: 4vh;
+    color: white;
+    text-decoration: none;
+    background-color: #2f86d6;
+    padding: 2vh 2vw;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.anuncio-1 img {
+    width: 2.5vh;
+}
+
+.secao-informacoes {
+    position: relative;
+    text-align:center;
+    height: 60vh;
+    margin: 0 8vw;
+}
+
+.subtitulo-informacoes {
+    height: 7vh;
+    font-size: 30px;
+    margin-top: 8vh;
+}
+
+.subtitulo-informacoes span {
+    color:#2f86d6;
+}
+
+.secao-informacoes img {
+    width: calc(100%/3);
+
+}
+
+.secao-informacoes p {
+    margin: 0 auto;
+    padding-top: 2vh;
+    width: 80%;
+}
+
+.secao-informacoes .img-info-1, .img-info-2, .img-info-3 {
+    width: calc(100%/3);
+    position: absolute;
+    top: 14vh;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.secao-informacoes .img-info-1{
+    left: 0.5vw;
+}
+
+.secao-informacoes .img-info-2{
+    left: 25vw;
+    padding-left: 7vw;
+}
+
+.secao-informacoes .img-info-3{
+    left: 50vw;
+    padding-left: 7vw;
+}
+
+.imagens-informacoes {
+    position: relative;
+    height: 40vh;
+    width: 90vw;
+    margin: 5vh auto;
+    left: 0;
+}
+
+.linha-impar {
+    background-color: #f6f6f6;
+}
+
+.linha-par {
+    background-color: #d1d3d7;
+}
+
+.imagens-tabela {
+    text-align: center;
+    padding: 2vh 10%;
+    background-color: #f6f6f6;
+    
+}
+
+.imagens-tabela span {
+    color:#2f86d6;
+}
+
+.imagens-tabela img{
+    width: calc(60vw/4);
+
+}
+
+.imagens-tabela h2 {
+    text-align: center;
+    width: 70vw;
+    margin: 2vh auto;
+    font-size: 40px;
+}
+
+.imagens-tabela th {
+    padding: 2vw;
+}
+
+.planos-home tr {
+   line-height: 5vh;
+}
+
+.planos-home img{
+    padding: 2vh 0;
+}
+
+.planos-home {
+    box-shadow: 2px 2px 35px  #2f86d6;
+    margin: 10vh auto;
+    padding-bottom: 3vh;
+
+}
+
+.anuncio-2 {
+    background-color: #2f86d6;
+    height: 25vh;
+    position: relative;
+}
+
+.anuncio-2 h2 {
+    position: absolute;
+    top: 6vh;
+    left: 10vw;
+    color: white;
+    width: 60vw;
+    margin-right: 2vw;
+    font-size: 2.5vw;
+}
+
+.anuncio-2 a {
+    position: absolute;
+    right: 0;
+    top:6.5vh;
+    background-color: #233032;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 14px;
+ margin-right: 8vw;
+}
+
+.anuncio-2 img {
+    width: 2.5vh;
+    padding-right: 4px;
+}
+
+.secao-rodape {
+    position: relative;
+    padding: 3vh 0;
+    height: 20vh;
+    display: flex;
+}
+
+
+.secao-rodape .legenda-logo-rodape {
+    position: relative;
+    top: 5vh;
+    margin-left: 1vw;
+}
+
+.legenda-logo-rodape p {
+    color:#2f86d6;
+    font-weight: bold;    
+    width: 20vw;
+    display: flex;
+}
+
+.rodape {
+    display: flex;
+    margin: 0 auto;
+}
+
+.rodape img{
+    width: 7vw;
+}
+
+.legenda-rodape {
+    text-align: center;
+    font-size: 22px;
+}
+
+.legenda-rodape p {
+    padding: 1vh;
+}
+
+.nome-aluno {
+    font-weight: bold;
+    margin: 5vh 0 2vh 0;
+}
+
+.nome-aluno span {
+    color:#2f86d6; 
+}
+
+.botao-topo {
+    text-align: right;
+    margin-right: 15vw;
+    position: relative;
+}
+
+.botao-topo a {
+    position: absolute;
+    top: -9vh;
+    text-decoration: none;
+    background-color: #2f86d6;
+    padding: 1.7vh;
+    border-radius: 45%;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+

@@ -32,6 +32,7 @@
 }
 
 .links-precos {
+    display: flex;
     margin: 9vh 0 0 35svw;
 }
 
